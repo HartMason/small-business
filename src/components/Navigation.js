@@ -25,10 +25,10 @@ export default function ButtonAppBar(props) {
   console.log(props, "nav");
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar className="navBar" position="static">
+      <AppBar className="navBar" position="static" style={{backgroundColor: "rgb(60,179,113)"}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Local Businesses
+            Austin Small Business
           </Typography>
           {console.log(user.online, "check online")}
           {user.online === true ? (
