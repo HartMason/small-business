@@ -13,7 +13,7 @@ function Map(props) {
       loading="lazy"
       allowFullScreen
       referrerPolicy="no-referrer-when-downgrade"
-      src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDsTAA9LO27vX9XOLrqAey-8ntAXJDq5bA
+      src={`https://www.google.com/maps/embed/v1/place?key=${apiKey}
     &q=${addressParams}`}
     ></iframe>
   );
